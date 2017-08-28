@@ -13,7 +13,7 @@ class LibrariesController < ApplicationController
   end
 
   def show
-    @library = Library.find_by_id(params[:id])
+    @library = Library.find_by_id(params[:library_id])
 
   end
 
